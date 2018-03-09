@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.chart.*?>
+<?import javafx.scene.web.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="571.0" prefWidth="834.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pkg3b_aula.Menu_principalController">
+    <children>
+        <Label fx:id="label" layoutX="126" layoutY="120" minHeight="16" minWidth="69" />
+      <Button layoutX="69.0" layoutY="331.0" mnemonicParsing="false" prefHeight="102.0" prefWidth="186.0" text="Caixa" />
+      <Button layoutX="345.0" layoutY="338.0" mnemonicParsing="false" prefHeight="102.0" prefWidth="177.0" text="Vendas" />
+      <Button layoutX="626.0" layoutY="335.0" mnemonicParsing="false" prefHeight="102.0" prefWidth="168.0" text="Cadastro" />
+      <Button layoutX="65.0" layoutY="477.0" mnemonicParsing="false" prefHeight="102.0" prefWidth="193.0" text="Relatorios" />
+      <Button layoutX="345.0" layoutY="486.0" mnemonicParsing="false" prefHeight="102.0" prefWidth="177.0" text="Estoque" />
+      <Button layoutX="628.0" layoutY="482.0" mnemonicParsing="false" prefHeight="102.0" prefWidth="168.0" text="Ultilitários" />
+      <AmbientLight color="CHARTREUSE" layoutX="272.0" layoutY="160.0" lightOn="true" />
+      <ScrollBar layoutX="875.0" layoutY="21.0" orientation="VERTICAL" prefHeight="611.0" prefWidth="14.0" />
+      <Box layoutX="161.0" layoutY="103.0" />
+      <ComboBox layoutX="184.0" layoutY="199.0" prefHeight="25.0" prefWidth="503.0" promptText="Pesquisa" />
+      <Button layoutX="271.0" layoutY="125.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="87.0" text="Cadastro" />
+      <Button layoutX="434.0" layoutY="125.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="87.0" text="Relatorio" />
+      <Button layoutX="606.0" layoutY="125.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="81.0" text="importação" />
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="1.0" layoutY="16.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../../Pictures/simbolos-das-notas-musicais_318-29778.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fitHeight="25.0" fitWidth="766.0" layoutX="319.0" layoutY="9.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Captuurar.PNG" />
+         </image>
+      </ImageView>
+    </children>
+</AnchorPane>
